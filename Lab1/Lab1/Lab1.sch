@@ -19,7 +19,7 @@ U 1 1 5E2871B9
 P 5650 3550
 F 0 "U1" H 5650 1961 50  0000 C CNN
 F 1 "CMWX1ZZABZ-078" H 5650 1870 50  0000 C CNN
-F 2 "RF_Module:CMWX1ZZABZ" H 5650 3550 50  0001 C CNN
+F 2 "CMWX1ZZABZ:CMWX1ZZABZ_longer_pads" H 5650 3550 50  0001 C CNN
 F 3 "https://wireless.murata.com/RFM/data/type_abz.pdf" H 8100 2050 50  0001 C CNN
 	1    5650 3550
 	1    0    0    -1  
@@ -316,7 +316,7 @@ F 3 " ~" H 7850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 950  8400 950 
+	8000 950  8200 950 
 Wire Wire Line
 	8400 950  8400 1150
 Wire Wire Line
@@ -421,11 +421,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 2600 10000 2050
 Connection ~ 9650 2600
-Wire Wire Line
-	9650 2600 9050 2600
-Wire Wire Line
-	9050 2600 9050 2050
-Connection ~ 9050 2050
 Wire Wire Line
 	3700 3300 3700 2600
 NoConn ~ 9500 1550
@@ -605,4 +600,20 @@ Wire Wire Line
 Connection ~ 8000 1850
 Wire Wire Line
 	8000 1850 8050 1850
+$Comp
+L power:+5V #PWR0112
+U 1 1 5E3B1A8E
+P 8200 850
+F 0 "#PWR0112" H 8200 700 50  0001 C CNN
+F 1 "+5V" H 8215 1023 50  0000 C CNN
+F 2 "" H 8200 850 50  0001 C CNN
+F 3 "" H 8200 850 50  0001 C CNN
+	1    8200 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 850  8200 950 
+Connection ~ 8200 950 
+Wire Wire Line
+	8200 950  8400 950 
 $EndSCHEMATC

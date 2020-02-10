@@ -1,4 +1,4 @@
-16923708464543390
+16925289196094159
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2211,6 +2211,13 @@ SMD 8540
 0
 4
 4
+CMWX1ZZABZ
+CMWX1ZZABZ_longer_pads
+https://wireless.murata.com/RFM/data/type_abz.pdf
+iot lora sigfox
+0
+153
+57
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
